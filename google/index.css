@@ -185,5 +185,30 @@ color:#989c99;
     color:black;
    margin-left:-3px;
 }
+@media screen and (max-width:900px)
+{
+    .input-box,.search-bar
+    {
+        margin-left:-250px;
+  
+    }
+    .short-cuts
+    {
+        margin:10px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .input-box,.search-bar
+    {
+        margin-left:-300px;
+  
+    }
+    .short-cuts
+    {
+        margin:-10px;
+    }
+}
+
 
 	
