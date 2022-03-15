@@ -1,6 +1,6 @@
 *
 {
-	box-sizing: border-box;
+        box-sizing: border-box;
 }
 body
 {
@@ -10,204 +10,101 @@ body
 }
 header
 {
-    margin:0;
+        margin:0;
 	height:20px;
-    margin-top:10px;
+        margin-top:10px;
 }
 
-header a {
-    float:right;
-    font-size:14px;
-    text-decoration-color: black;
-    text-decoration: none;
-    margin-right:20px;
-    color:black;
+header a 
+{
+        float:right;
+        font-size:14px;
+        text-decoration-color: black;
+        text-decoration: none;
+        margin-right:20px;
+        color:black;
 }
-header a:hover{
-    text-decoration: underline;
+header a:hover
+{
+        text-decoration: underline;
 }
 header i,header span
 {
-    float:right;
-    margin-right:20px;
-
+       float:right;
+       margin-right:20px;
+ 
 }
-
-  
 header span{
-    background-color:#91188b;
-    padding:5px 8px;
-    border-radius: 50%;
-    margin-top: -2px;
-    color:white;
+       background-color:#91188b;
+       padding:5px 8px;
+       border-radius: 50%;
+       margin-top: -2px;
+       color:white;
 }
-header span:hover{
-    outline:3px solid rgb(233, 223, 223);
-    border-radius:50%;
+header span:hover
+{
+      outline:3px solid rgb(233, 223, 223);
+      border-radius:50%;
 }
 .main
 {
 	text-align:center;
-	margin-top:6%;
+	margin-top:3%;
   
 }
-.letter1
+
+.search-bar
 {
-    font-family: 'Manrope', sans-serif;
-	color:blue;
-	font-size:100px;
-   
-}
-.letter2
-{
-	color:#c70a20;
-	font-size:90px;
-}
-.letter3
-{
-	color:#e8cf15;
-	font-size:90px;
-}
-.letter4
-{
-	color:blue;
-	font-size:90px;
-}
-.letter5
-{
-	color:#058521;
-	font-size:90px;
-}
-.letter6
-{
-	color:#c70a20;
-	font-size:90px;
-}
-.search-bar{
 	position:relative;
+        text-align:center;
 }
 .inputbox
 {
-margin-left:400px;
-width:40%;
-height:45px;
-border-radius:24px;
-border:1px solid #dfe3dc;
-box-shadow: 2px 2px 2px #d2d9d4;
+        
+        width:40%;
+        height:45px;
+        border-radius:24px;
+        border:1px solid #dfe3dc;
+        box-shadow: 2px 2px 2px #d2d9d4;
 }
 input[type=text]::placeholder
 {
 	padding-left:50px;
 	font-size:15px;
-	position:sticky;
-	
+		
 }
 input[type=text]:focus
 {
-    padding-left:50px;
- outline:1px solid #dfe3dc;
- box-shadow: 2px 2px 2px #d2d9d4;
+        padding-left:50px;
+        outline:1px solid #dfe3dc;
+        box-shadow: 2px 2px 2px #d2d9d4;
 }
-.fa-magnifying-glass,.fa-microphone
+.fa-magnifying-glass
 {
-position:absolute;
+        position:absolute;
 
 }
 .fa-magnifying-glass
 {
-margin-left:420px;
-margin-top:12px;
-font-size:17px;
-color:#989c99;
+        margin-left:10px;
+        margin-top:20px;
+        font-size:17px;
+        color:#989c99;
 }
-.fa-microphone
-{
-	margin-left:-45px;
+.search-bar img
+{       
+	padding-right:30px;
 	margin-top:12px;
 	font-size:20px;
 	color:#0d90db;
+        position:absolute;
 }
-.short-cuts
+.mic-image
 {
-    margin-left:400px;
-    display:flex;
-    flex-direction:row;
-  margin-top:-7px;
-   
-}
-.short-cuts div{
-    
-    margin-left:15px;
-    padding:35px;
-    box-sizing: border-box;
+      display:inline;
+      position:absolute;
+      margin-right:50px;
 
-}
-.short-cuts div:hover{
- background-color: #e3ebe8;
- border-radius: 7px;
- cursor:pointer;
-}
-.short-cuts  div i{
-    background-color: #e1e9eb;
-    border-radius:50%;
-    padding:10px;
-    font-size:22px;
-   
-}
-.short-cuts  div .email{
-    font-size:14px;
-    color:black;
-   margin-left:4px;
-}
-.short-cuts  div .facebook{
-    font-size:14px;
-    color:black;
-   margin-left:-5px;
-}
-.short-cuts  div .youtube{
-    font-size:14px;
-    color:black;
-   margin-left:-3px;
-}
-.short-cuts  div .whatsapp{
-    font-size:14px;
-    color:black;
-   margin-left:-8px;
-}
-.short-cuts  div .Add-shortcuts{
-    font-size:14px;
-    color:black;
-   margin-left:-12px;
-}
-.short-cuts  div .eduraps
-{
-    font-size:14px;
-    color:black;
-   margin-left:-3px;
-}
-@media screen and (max-width:900px)
-{
-    .input-box,.search-bar
-    {
-        margin-left:-250px;
-  
-    }
-    .short-cuts
-    {
-        margin:10px;
-    }
-}
-@media screen and (max-width:600px)
-{
-    .input-box,.search-bar
-    {
-        margin-left:-300px;
-  
-    }
-    .short-cuts
-    {
-        margin:-10px;
-    }
 }
 
 

@@ -40,7 +40,7 @@ header i
 .search-bar
 {
     position:relative;
-    margin-left:30px;
+    margin-left:70px;
 }
 .fa-magnifying-glass
 {
@@ -126,6 +126,12 @@ header i
    font-size:24px;
    border-color:#4e5052;
    background-color:white;
+}
+.fa-braille
+{
+  
+  font-size:20px;
+
 }
 section
 {
@@ -282,7 +288,7 @@ sub-div3
 }
 .fa-star
 {
-    color:gray;
+    color:#acacad;
     margin-left:6px;
 }
 .from
@@ -310,7 +316,7 @@ sub-div3
 }
 .fa-square
 {
-color:#56585c;
+color:#acacad;
 margin-left:30px;
 }
 .sub-div3
