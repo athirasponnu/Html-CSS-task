@@ -17,14 +17,30 @@ header{
     margin-top:5px;
     padding:2px;
 }
+header img
+{
+    margin-top:15px;
+    width:40px;
+    height:30px;
+}
+.fa-bars
+{
+    margin-top:7px;
+    font-size:20px;
+}
 header i
 {
     padding:15px;
 }
+.gmail-logo
+{
+   margin-top:18px;
+   font-size:22px;
+}
 .search-bar
 {
     position:relative;
-    margin-left:45px;
+    margin-left:30px;
 }
 .fa-magnifying-glass
 {
@@ -133,9 +149,13 @@ section
     Margin:6px;
 }
 .sub2{
-  margin:17px 13px;
+  padding:17px 13px;
   color:#646866;
   font-size:15px;
+}
+.sub2:hover
+{
+background-color:#e6eaed;
 }
 .fa-caret-right
 {
