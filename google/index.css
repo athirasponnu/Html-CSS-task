@@ -66,6 +66,7 @@ header span:hover
         border-radius:24px;
         border:1px solid #dfe3dc;
         box-shadow: 2px 2px 2px #d2d9d4;
+        display:relative;
 }
 input[type=text]::placeholder
 {
@@ -91,20 +92,47 @@ input[type=text]:focus
         font-size:17px;
         color:#989c99;
 }
-.search-bar img
+.search-bar #mic-icon
 {       
-	padding-right:30px;
-	margin-top:12px;
+	
+	margin-top:10px;
 	font-size:20px;
 	color:#0d90db;
         position:absolute;
+        left:67%;
 }
-.mic-image
+.search-bar #search-icon
+{       
+	padding-right:30px;
+	margin-top:11px;
+        margin-left:8px;
+	font-size:20px;
+	color:#0d90db;
+        position:absolute;
+        left:30%;
+}
+.btn
 {
-      display:inline;
-      position:absolute;
-      margin-right:50px;
-
+margin-left:37%;
+}
+.btn1
+{
+ border:1px solid #bdc7c5;
+ height:30px;
+ 
+}
+.link 
+{
+margin-left:27%;
+}
+.link ul
+{
+list-style-type: none;
+}
+.link ul li 
+{
+display:inline;
+padding:10px;
 }
 
 
