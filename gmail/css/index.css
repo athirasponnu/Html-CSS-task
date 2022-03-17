@@ -23,9 +23,23 @@ body
    width:20%;
    padding:3px 0px 10px 10px;
 }
-.first-container span
+.top-side-nav
 {
-    font-size:30px;    
+    display:flex;
+    flex-direction: row;
+    padding-bottom:7px;
+    border-bottom:1px solid #e6eaed; 
+}
+.horizontal-bar
+{
+    flex:2%;
+    padding-top:10px;
+    padding-left: 4px;
+}
+.logo
+{
+    flex:63%;
+    padding-bottom:4px;
 }
 .first-container img
 {
@@ -36,6 +50,7 @@ body
    float:left;
    padding-top:20px;
    margin-right:10px;
+   margin-bottom:5px;
 }
 .Compose-btn button
 {
@@ -59,9 +74,13 @@ body
 }
 .options
 {
-    margin:17px 13px;
+    padding:17px 13px;
     color:#646866;
     
+}
+.options:hover
+{
+    background-color: #ced9d1;
 }
 .options span
 {
@@ -77,7 +96,7 @@ body
 {
     float:right;
 }
-.main-second-container
+.second-container
 {
     float:left;
     width:80%;
@@ -86,33 +105,46 @@ header
 {  
    padding-bottom:12px;
    border-bottom:1px solid #e6eaed; 
-   float:left;
-   width:100%;
+   display:flex;
+   flex-direction:row;
+ 
 }
-header button
-{   
-    border:1px solid #e6eaed;
-    padding:10px;
-    border-radius:20px;
-    width:120px;
-    font-size: 14px;
-    background-color:white;
-}
-.fa-circle
+.search-bar
 {
-    padding-right:4px;
-    font-size:12px;
-    color:green;
+    flex:46%;
+   
 }
-.fa-caret-down
+.Active-button
 {
-   padding-left:3px;
-   color:gray;
+    padding-top:10px;
+    padding-left:10px;
+    flex:5%;
+}
+.support
+{
+    padding-top:15px;
+    padding-left:10px;
+    flex:1%;
+   
+}
+.settings
+{
+    padding-top:15px;
+    padding-left:10px;
+    flex:1%;
+    
+}
+.apps
+{
+    padding-top:15px;
+    padding-left:10px;
+    flex:1%;
+    
 }
 input[type=search]
 {
     margin-top:7px;
-    width:60%;
+    width:100%;
     padding:15px;
     border-radius:6px;
     border:1px solid #cdcfd1;
@@ -127,12 +159,34 @@ input[type=search]:focus
     outline:1px solid #cdcfd1;
     box-shadow:2px 2px 2px #cdcfd1;   
 }
-.main-second-container input
+
+.Active-button  button
+{   
+    border:1px solid #e6eaed;
+    padding:10px;
+    border-radius:20px;
+    width:120px;
+    font-size: 14px;
+    background-color:white;
+}
+
+.fa-circle
+{
+    padding-right:4px;
+    font-size:12px;
+    color:green;
+}
+.fa-caret-down
+{
+   padding-left:3px;
+   color:gray;
+}
+
+.search-bar input
 {
      background-image:url('../assets/search.png'),url('../assets/filter.png');
      background-repeat:no-repeat,no-repeat;
      background-position:1% 50%, 95% 50%;
-     background-orgin:content-box;
      background-color:white ;
 }
 .fa-circle-question,.fa-gear
@@ -152,7 +206,6 @@ input[type=search]:focus
     border:1px solid #e6eaed;
     padding:10px 16px;
     border-radius: 8px;
-    float:right;
     margin:5px 10px;
 }
 .symbol
@@ -168,7 +221,7 @@ input[type=search]:focus
     padding-right:8px;
     color:rgb(97, 187, 218);
 }
-.sub-second-container
+.second-container-nav
 {
     float:left;
     width:100%;
@@ -207,6 +260,81 @@ input[type=search]:focus
 .col2 .fa-angle-left
 {
       padding-right:10px;
+}
+.customise
+{
+    width:98%;
+    padding:25px;
+    border:1px solid #c3c7c4;
+    border-radius:25px;
+  
+ 
+}
+.customise-icons
+{
+    display:flex;
+    padding:10px;
+    margin-top:14px;
+    flex-direction: row;
+}
+.inbox
+{
+ flex:20%;
+ display:flex;
+}
+.signature
+{
+flex:20%;
+display:flex;
+}
+.notifications
+{
+    flex:20%;
+    display:flex;
+}
+ .customise-icons .fa-gear
+{
+    font-size:20px;
+    background-color:#d4eaf3;
+    padding:10px;
+    margin-right:8px;
+    border-radius: 25px;
+    color:#4db9e7
+}
+.fa-pen-clip
+{
+    font-size:20px;
+    color:green;
+    background-color: #c3e6d3;
+    padding:10px;
+    margin-right:8px;
+    border-radius: 25px;
+  
+}
+.fa-bell
+{
+    font-size:20px;
+    margin-right:8px;
+    color:#e62947;
+    background-color:#f0b1bb;
+    padding:10px;
+    border-radius: 25px;
+  
+}
+.signature .description
+{
+    padding-top: 10px;
+   
+}
+.description:hover{
+    background-color:#ced9d1 ;
+    border-radius:4px;
+}
+.description
+{
+    font-size: 14px;
+    padding-top:2px;
+    padding:2px 15px;
 }
 .mail-list
 {
@@ -266,7 +394,7 @@ input[type=search]:focus
 {
    color:#f2ee0f;
 }
-..fa-circle-check
+.fa-circle-check
 {
    color:#4e8fd9;
 }
