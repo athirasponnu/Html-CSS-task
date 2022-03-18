@@ -19,9 +19,9 @@ body
 }
 .first-container
 {
-   float:left;
-   width:20%;
-   padding:3px 0px 10px 10px;
+    float:left;
+    width:20%;
+    padding:3px 0px 10px 10px;
 }
 .top-side-nav
 {
@@ -47,10 +47,10 @@ body
 }
 .Compose-btn
 {
-   float:left;
-   padding-top:20px;
-   margin-right:10px;
-   margin-bottom:5px;
+    float:left;
+    padding-top:20px;
+    margin-right:10px;
+    margin-bottom:5px;
 }
 .Compose-btn button
 {
@@ -63,14 +63,14 @@ body
 }
 .Compose-btn i
 {
-   padding-right:10px;
-   color:#d30e1b;
+     padding-right:10px;
+     color:#d30e1b;
 }
 .clear
 {
-   content:'';
-   clear:both;
-   display:table;
+     content:'';
+     clear:both;
+     display:table;
 }
 .options
 {
@@ -103,10 +103,10 @@ body
 }
 header
 {  
-   padding-bottom:12px;
-   border-bottom:1px solid #e6eaed; 
-   display:flex;
-   flex-direction:row;
+    padding-bottom:12px;
+    border-bottom:1px solid #e6eaed; 
+    display:flex;
+    flex-direction:row;
  
 }
 .search-bar
@@ -132,14 +132,12 @@ header
     padding-top:15px;
     padding-left:10px;
     flex:1%;
-    
 }
 .apps
 {
     padding-top:15px;
     padding-left:10px;
     flex:1%;
-    
 }
 input[type=search]
 {
@@ -230,6 +228,7 @@ input[type=search]:focus
 {
      float:left;
      width:95%;
+     border-right:1px solid #cdcfd1;
 }
 .left .row
 {
@@ -259,7 +258,7 @@ input[type=search]:focus
 }
 .col2 .fa-angle-left
 {
-      padding-right:10px;
+     padding-right:10px;
 }
 .customise
 {
@@ -279,13 +278,13 @@ input[type=search]:focus
 }
 .inbox
 {
- flex:20%;
- display:flex;
+    flex:20%;
+    display:flex;
 }
 .signature
 {
-flex:20%;
-display:flex;
+    flex:20%;
+    display:flex;
 }
 .notifications
 {
@@ -326,7 +325,8 @@ display:flex;
     padding-top: 10px;
    
 }
-.description:hover{
+.description:hover
+{
     background-color:#ced9d1 ;
     border-radius:4px;
 }
@@ -340,9 +340,13 @@ display:flex;
 {
       float:left;
       width:100%;
-      background-color:#faf9f5;
+      background-color:#faeded;
       padding:10px 10px;
       border-bottom:1px solid #cdcfd1;
+}
+.mail-list:hover
+{
+      background-color:white;
 }
 .mail-list span
 {
@@ -371,39 +375,38 @@ display:flex;
 }
 .right
 {
-    float:right;
-    width:5%;
-    height:100%;
-    border-left:1px solid #cdcfd1;
+       float:right;
+       width:5%;
+       height:100%;
 }
 .right i
 {
-    font-size: 20px;
-    padding:25%;
+      font-size: 20px;
+      padding:25%;
 }
 .right-nav .fa-plus
 {
-  padding-right:45%;
+     padding-right:45%;
     
 }
 .fa-calendar
 {
-   color:#51b314;
+     color:#51b314;
 }
 .fa-lightbulb
 {
-   color:#f2ee0f;
+     color:#f2ee0f;
 }
 .fa-circle-check
 {
-   color:#4e8fd9;
+     color:#4e8fd9;
 }
 .fa-circle-user
 {
-   color:#261ddb;
+    color:#261ddb;
 }
 .fa-minus
 {
-   color:#9ca398;
+    color:#9ca398;
 }
 
