@@ -340,7 +340,7 @@ input[type=search]:focus
 {
       float:left;
       width:100%;
-      background-color:#faeded;
+      background-color:#f0f7f7;
       padding:10px 10px;
       border-bottom:1px solid #cdcfd1;
 }
